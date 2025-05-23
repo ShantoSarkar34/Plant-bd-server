@@ -59,11 +59,7 @@ async function run() {
           des: user.des,
         },
       };
-      const result = await usersCollection.updateOne(
-        filter,
-        updatedInfo,
-        options
-      );
+      const result = await usersCollection.updateOne(filter, updatedInfo);
       res.send(result);
     });
 
