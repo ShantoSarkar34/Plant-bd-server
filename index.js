@@ -55,7 +55,8 @@ async function run() {
           name: user.name,
           photo: user.photo,
           price: user.price,
-          date: user.date,
+          lasteDate: user.lastDate,
+          nextDate: user.nextDate,
           des: user.des,
         },
       };
